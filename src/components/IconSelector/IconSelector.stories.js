@@ -10,7 +10,7 @@ const iconList = STORYBOOK_ICONS.reduce(function (result, item) {
     return result;
 }, {});
 
-storiesOf("HelloWorld", module)
+storiesOf("Icon Selector", module)
     .addDecorator(withKnobs)
     .add("default", () => {
         return {
