@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "storybook:build": "vue-cli-service storybook:build -c config/storybook",
-    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook"
+    "storybook:serve": "vue-cli-service storybook:serve -p 6006 -c config/storybook -s ./src"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.22",
@@ -38,7 +38,6 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
-    "prettier": "^1.18.2",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.3.1",
     "style-resources-loader": "^1.2.1",

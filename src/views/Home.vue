@@ -1,16 +1,17 @@
-<template lang="pug">
-  div.home
-    HelloWorld(msg="Welcome to Your Vue.js App")
+<template>
+  <div class="home">
+     <IconSelector icon-name="about"/>
+  </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld/HelloWorld.vue";
+import IconSelector from "@/components/IconSelector/IconSelector.vue";
 
 export default {
   name: "home",
   components: {
-    HelloWorld
+      IconSelector
   }
 };
 </script>
